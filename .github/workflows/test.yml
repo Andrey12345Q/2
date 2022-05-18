@@ -4,10 +4,10 @@ on:
   pull_request:
   push:
     branches:
-      - main
+      - master
 
-jods
-  liny:
+jobs:
+  lint:
     runs-on: ubuntu-latest
     strategy:
       matrix:
